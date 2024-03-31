@@ -4,7 +4,7 @@
 
 ## Notes:
 - Highly aggressive towards all mobs, and yes that includes the TNT Block.
-- "Can" Teleport
+- "Can" Teleport (By teleport I mean twitch randomly)
 - Shoots Fire
 - Exploads
 - Drops new Item (TNT Shrapnel).
