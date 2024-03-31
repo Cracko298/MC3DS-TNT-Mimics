@@ -8,3 +8,6 @@
 - Shoots Fire
 - Exploads
 - Drops new Item (TNT Shrapnel).
+
+## Download:
+- [Download Here](https://github.com/Cracko298/MC3DS-TNT-Mimics/releases/download/v011/TNT_Mimics.zip).
