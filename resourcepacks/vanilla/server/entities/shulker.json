@@ -101,7 +101,7 @@
 
     "components": {
       "minecraft:identifier": {
-        "id": "minecraft:shulker"
+        "id": "minecraft:villager"
       },
       "minecraft:type_family": {
         "family": [ "shulker", "monster" ]
@@ -110,11 +110,22 @@
         {
           "on_damage": {
             "filters": { "other_with_families": [ "player", "monster", "tnt"]},
+            
             "event": "minecraft:start_exploding"
           },
-          "deals_damage": true
+          "deals_damage": true,
+          "probability": 0.02
         }
       ],
+
+      "minecraft:teleport": {
+        "randomTeleports": true,
+        "maxRandomTeleportTime": 100,
+        "randomTeleportCube": [ 2, 0, 2 ],
+        "targetDistance": 12,
+        "target_teleport_chance": 0,
+        "lightTeleportChance": 1
+      },
 
       "minecraft:target_nearby_sensor": {
         "inside_range": 2.0,
@@ -141,7 +152,7 @@
       },
       "minecraft:fire_immune": true,
       "minecraft:loot": {
-        "table": "loot_tables/entities/creeper.json"
+        "table": "loot_tables/entities/shulker.json"
       },
       "minecraft:peek": {
         "on_open": {
@@ -181,14 +192,6 @@
           "max_dist": 16
         },
         "must_see": true
-      },
-      "minecraft:teleport": {
-        "randomTeleports": true,
-        "maxRandomTeleportTime": 10,
-        "randomTeleportCube": [ 32, 32, 32 ],
-        "targetDistance": 12,
-        "target_teleport_chance": 0.05,
-        "lightTeleportChance": 0.01
       },
       "minecraft:movement": {
         "value": 0.5
@@ -415,6 +418,17 @@
             "add": {
               "component_groups": [
                 "minecraft:exploding"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:teleporting": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": [
+                "minecraft:teleport"
               ]
             }
           }
