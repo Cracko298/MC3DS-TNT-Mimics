@@ -4,7 +4,7 @@
 - For right now, it replaces the Shulker, however this will change in due time.
 
 <p align="center">
-    <img width=200% height=200% src="https://github.com/Cracko298/MC3DS-TNT-Mimics/blob/main/_logo/TNT_Mimics.png" alt="TNT Mimics logo">
+    <img width=100% height=100% src="https://github.com/Cracko298/MC3DS-TNT-Mimics/blob/main/_logo/TNT_Mimics.png" alt="TNT Mimics logo">
 </p>
 
 ## Notes:
