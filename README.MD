@@ -3,6 +3,9 @@
 - It's a mob that Mimics TNT and takes some inspiration from the Shulker.
 - For right now, it replaces the Shulker, however this will change in due time.
 
+<p align="center">
+    <img width=200% height=200% src="https://github.com/Cracko298/MC3DS-TNT-Mimics/blob/main/_logo/TNT_Mimics.png" alt="TNT Mimics logo">
+</p>
 
 ## Notes:
 - Is incompatible with MOST if not all Texture Repacks (Incl. Gun Mod, Festive World as Defualt, Norse Mithology, etc).
