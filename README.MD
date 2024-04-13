@@ -1,5 +1,5 @@
 <p align="center">
-    <img width=96px height=96px src="https://github.com/Cracko298/MC3DS-TNT-Mimics/blob/main/_logo/TNT_Mimics.png" alt="TNT Mimics logo">
+    <img src="https://github.com/Cracko298/MC3DS-TNT-Mimics/blob/main/_logo/Full Logo.png" alt="TNT Mimics logo">
 </p>
 
 ## Highly Experimental Mod
